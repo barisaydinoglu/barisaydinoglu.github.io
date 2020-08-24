@@ -108,6 +108,11 @@ a {
         &:focus {
             outline: none;
         }
+        img {
+            border-radius: 100%;
+            position: relative;
+            top: -2px;
+        }
     }
     a {
         color: $navbar-color;
